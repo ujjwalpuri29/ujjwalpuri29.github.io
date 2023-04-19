@@ -1,0 +1,97 @@
+:root {
+  --primary: #68fe9a;
+}
+
+.btn-primary {
+  --bs-btn-color: #000;
+  --bs-btn-bg: var(--primary);
+  --bs-btn-border-color: var(--primary);
+  --bs-btn-hover-color: var(--primary);
+  --bs-btn-hover-bg: transparent;
+  --bs-btn-hover-border-color: var(--primary);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: var(--primary);
+  --bs-btn-active-border-color: var(--primary);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+  --bs-btn-disabled-bg: var(--primary);
+  --bs-btn-disabled-border-color: var(--primary);
+}
+
+.btn-tertiary {
+  --bs-btn-color: var(--primary);
+}
+
+.btn-tertiary:hover {
+  color: var(--primary);
+}
+
+.btn-tertiary:active {
+  color: var(--primary) !important;
+  background-color: var(--bs-btn-active-bg);
+  border-color: transparent !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.nav-item {
+  font-size: 12px;
+}
+
+.subtitle {
+  letter-spacing: 4px;
+  color: #68fe9a;
+}
+
+.title {
+  font-size: 64px;
+  letter-spacing: 2px;
+}
+
+.desc {
+  color: #868686;
+  font-size: 14px;
+}
+
+.infos {
+  padding-top: 74px;
+}
+
+.hire-btn {
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+.img-holder {
+  background-image: url("assets/bg-ai.png");
+  background-size: cover;
+}
+
+.active {
+  color: #68fe9a !important;
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 48px;
+  }
+
+  .desc {
+    font-size: 12px;
+  }
+
+  .hire-btn {
+    font-size: 12px;
+  }
+}
